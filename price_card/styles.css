@@ -65,11 +65,30 @@ h2, h4, p{
     background-color: #2EBFBD;
 }
 
-ul{
-    padding: 0;
-    list-style: none;
-    font-size: 0.9rem;
-    opacity: 0.8;
+.left h4{
+    margin-bottom: 25px;
+}
+
+.price-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.frequency{
+    font-size: 0.8rem;
+    opacity: .7;
+    margin-left: 5px;
+}
+
+.access{
+    font-size: 0.8rem;
+    margin-bottom: 40px;
 }
 
 button{
@@ -88,29 +107,11 @@ button:hover{
     font-style: bold;
 }
 
-.dollar {
-    font-weight: 700;
-    font-size: 1.4rem;
-}
-
-.monthly{
-    position: relative;
-    top: -3px;
-    font-size: 0.8rem;
-    opacity: .7;
-    margin-left: 5px;
-}
-.left h4{
-    margin-bottom: 25px;
-}
-
-.money{
-    margin-bottom: 10px;
-}
-
-.access{
-    font-size: 0.8rem;
-    margin-bottom: 40px;
+ul{
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
 }
 
 @media (max-width: 900px){
